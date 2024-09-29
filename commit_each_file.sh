@@ -5,7 +5,6 @@ if [ $# -ne 1 ]; then
     echo "Usage: $0 <path_to_folder>"
     exit 1
 fi
-
 # Assign the first argument to the path variable
 path="$1"
 
